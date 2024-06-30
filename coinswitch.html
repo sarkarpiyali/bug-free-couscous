@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    img {
+      display: block;
+    }
+    nav > div {
+      width: 200px;
+      height: auto;
+    }
+    nav p {
+      font-size: 30px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    nav > div:nth-of-type(1){
+      flex-grow: 1;
+    }
+    nav>div:last-child{
+        border-radius: 10px;
+        background-color: rgb(38, 189, 38);
+        color: antiquewhite;
+    }
+    nav>div:last-child>p{
+        text-align: center;
+    }
+  </style>
+  <body>
+    <nav>
+      <div>
+        <img
+          src="https://coinswitch.co/_next/static/media/logo.01525825.svg"
+          alt=""
+        />
+      </div>
+      <div><p>Products</p></div>
+      <div><p>Coins</p></div>
+      <div><p>Ventures</p></div>
+      <div><p>Blog</p></div>
+      <div><p>Company</p></div>
+      <div><p>Login To Pro</p></div>
+    </nav>
+  </body>
+</html>
